@@ -27,6 +27,8 @@ Therefore, I decided to create my own model that does that.
 
 Firstly, I needed to collect images of good posture and bad posture.  So I set up a tripod and recorded my family and friends sitting on a chair with a good or bad posture.  An hour later, after extracting the sitting footage from one long video of different people sitting down on a chair, I had around 20 videos of each good posture and bad posture.  
 
+<img width="825" alt="Screenshot 2024-02-16 at 1 26 34 PM" src="https://github.com/RexanWONG/sitting-posture-buddy/assets/96183717/01b4e1f8-b98e-453f-bdf5-262a56a983dc">
+
 Next, it was time to use these videos to train a machine learning (ML) model that makes the predictions.  Even though I had no real knowledge of machine knowledge, let alone training a ML model on videos to classify specific actions, CreateML made the job easy for me.  All I had to do was to import my videos into CreateML and in the end I ended up with an action classifier ML model from CreateML that could classify good sitting posture from bad sitting posture.  
 
 However, the first few models that I trained made some mistakes.  For example, they could identify bad sitting posture well with a high confidence level, but sometimes they thought footage of good sitting posture was bad sitting posture.  Luckly, CreateML also made it easy to iterate and experiment with the data to see if they yield different results.  In the end, I removed some footage that I thought could be good posture but close to bad posture from the dataset, and ended up with a model that could manage to classify good sitting posture from bad sitting posture fairly well, after training it for 80 iterations with a 85% accuracy score.  
