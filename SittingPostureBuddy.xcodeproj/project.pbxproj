@@ -16,6 +16,7 @@
 		DC1AAC882B7A6BEF00196F72 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AAC872B7A6BEF00196F72 /* VideoCapture.swift */; };
 		DC1AAC8A2B7AFDDE00196F72 /* PostureClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC1AAC892B7AFDDD00196F72 /* PostureClassifier.mlmodel */; };
 		DC1AAC8C2B7AFE4600196F72 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AAC8B2B7AFE4600196F72 /* Predictor.swift */; };
+		DC768ACD2B7DDCA2002FD561 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC768ACC2B7DDCA2002FD561 /* InstructionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DC1AAC872B7A6BEF00196F72 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		DC1AAC892B7AFDDD00196F72 /* PostureClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PostureClassifier.mlmodel; sourceTree = "<group>"; };
 		DC1AAC8B2B7AFE4600196F72 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		DC768ACC2B7DDCA2002FD561 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		DC1AAC722B7A6B0100196F72 /* SittingPostureBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				DC768ACB2B7DDC87002FD561 /* Instructions */,
 				DC1AAC892B7AFDDD00196F72 /* PostureClassifier.mlmodel */,
 				DC1AAC732B7A6B0100196F72 /* AppDelegate.swift */,
 				DC1AAC752B7A6B0100196F72 /* SceneDelegate.swift */,
@@ -74,6 +77,14 @@
 				DC1AAC812B7A6B0300196F72 /* Info.plist */,
 			);
 			path = SittingPostureBuddy;
+			sourceTree = "<group>";
+		};
+		DC768ACB2B7DDC87002FD561 /* Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				DC768ACC2B7DDCA2002FD561 /* InstructionsViewController.swift */,
+			);
+			path = Instructions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 				DC1AAC742B7A6B0100196F72 /* AppDelegate.swift in Sources */,
 				DC1AAC8A2B7AFDDE00196F72 /* PostureClassifier.mlmodel in Sources */,
 				DC1AAC8C2B7AFE4600196F72 /* Predictor.swift in Sources */,
+				DC768ACD2B7DDCA2002FD561 /* InstructionsViewController.swift in Sources */,
 				DC1AAC762B7A6B0100196F72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
