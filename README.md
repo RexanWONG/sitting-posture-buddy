@@ -31,6 +31,8 @@ Next, it was time to use these videos to train a machine learning (ML) model tha
 
 However, the first few models that I trained made some mistakes.  For example, they could identify bad sitting posture well with a high confidence level, but sometimes they thought footage of good sitting posture was bad sitting posture.  Luckly, CreateML also made it easy to iterate and experiment with the data to see if they yield different results.  In the end, I removed some footage that I thought could be good posture but close to bad posture from the dataset, and ended up with a model that could manage to classify good sitting posture from bad sitting posture fairly well, after training it for 80 iterations with a 85% accuracy score.  
 
+![Screenshot 2024-02-16 at 1 19 14 PM](https://github.com/RexanWONG/sitting-posture-buddy/assets/96183717/b03f6e55-8858-49ab-9d38-d030009e29f1)
+
 After creating a model that could classify good sitting posture with bad sitting posture, it was time to code an app that could track sitting posture in real time and use the model to make a judgement about the sitting posture.  
 
 I used AVFoundation to quickly set up an AVCaptureSession that captures camera data and displays a live camera preview within the app.  
