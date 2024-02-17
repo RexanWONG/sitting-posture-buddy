@@ -16,15 +16,15 @@ protocol PredictorDelegate: AnyObject {
 class Predictor {
     weak var delegate: PredictorDelegate?
     
-    let predictionWindowSize = 120
+    let predictionWindowSize = 60
     var posesWindow: [VNHumanBodyPoseObservation] = []
     
     init() {
         posesWindow.reserveCapacity(predictionWindowSize)
     }
-    
+
     func estimation(sampleBuffer: CMSampleBuffer) {
-        let requestHandler = VNImageRequestHandler(cmSampleBuffer: sampleBuffer, orientation: .up)
+        let requestHandler = VNImageRequestHandler(cmSampleBuffer: sampleBuffer, orientation: .right)
         let request = VNDetectHumanBodyPoseRequest(completionHandler: bodyPoseHandler)
         
         do {
@@ -47,7 +47,7 @@ class Predictor {
     }
     
     func labelActionType() {
-        guard let postureClassifier = try? PostureClassifier(configuration:  MLModelConfiguration()), 
+        guard let postureClassifier = try? SittingPostureClassifier(configuration:  MLModelConfiguration()),
                 let poseMultiArray = prepareInputWithObservations(posesWindow),
                 let predictions = try? postureClassifier.prediction(poses: poseMultiArray) else {
             return
@@ -77,7 +77,7 @@ class Predictor {
         if numAvaliableFrames < observationsNeeded {
             for _ in 0 ..< (observationsNeeded - numAvaliableFrames) {
                 do {
-                    let oneFrameMultiArray = try MLMultiArray(shape: [120, 3, 18], dataType: .float16)
+                    let oneFrameMultiArray = try MLMultiArray(shape: [60, 3, 18], dataType: .float16)
                     try resetMultiArray(oneFrameMultiArray)
                     multiArrayBuffer.append(oneFrameMultiArray)
                 } catch {

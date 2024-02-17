@@ -14,8 +14,8 @@
 		DC1AAC7D2B7A6B0300196F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1AAC7C2B7A6B0300196F72 /* Assets.xcassets */; };
 		DC1AAC802B7A6B0300196F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1AAC7E2B7A6B0300196F72 /* LaunchScreen.storyboard */; };
 		DC1AAC882B7A6BEF00196F72 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AAC872B7A6BEF00196F72 /* VideoCapture.swift */; };
-		DC1AAC8A2B7AFDDE00196F72 /* PostureClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC1AAC892B7AFDDD00196F72 /* PostureClassifier.mlmodel */; };
 		DC1AAC8C2B7AFE4600196F72 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AAC8B2B7AFE4600196F72 /* Predictor.swift */; };
+		DC7638EC2B812CB600B5907B /* SittingPostureClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC7638EB2B812CB600B5907B /* SittingPostureClassifier.mlmodel */; };
 		DC768ACD2B7DDCA2002FD561 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC768ACC2B7DDCA2002FD561 /* InstructionsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +29,8 @@
 		DC1AAC7F2B7A6B0300196F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC1AAC812B7A6B0300196F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1AAC872B7A6BEF00196F72 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
-		DC1AAC892B7AFDDD00196F72 /* PostureClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PostureClassifier.mlmodel; sourceTree = "<group>"; };
 		DC1AAC8B2B7AFE4600196F72 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		DC7638EB2B812CB600B5907B /* SittingPostureClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SittingPostureClassifier.mlmodel; sourceTree = "<group>"; };
 		DC768ACC2B7DDCA2002FD561 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,12 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				DC768ACB2B7DDC87002FD561 /* Instructions */,
-				DC1AAC892B7AFDDD00196F72 /* PostureClassifier.mlmodel */,
 				DC1AAC732B7A6B0100196F72 /* AppDelegate.swift */,
 				DC1AAC752B7A6B0100196F72 /* SceneDelegate.swift */,
 				DC1AAC772B7A6B0100196F72 /* ViewController.swift */,
 				DC1AAC872B7A6BEF00196F72 /* VideoCapture.swift */,
 				DC1AAC8B2B7AFE4600196F72 /* Predictor.swift */,
+				DC7638EB2B812CB600B5907B /* SittingPostureClassifier.mlmodel */,
 				DC1AAC792B7A6B0100196F72 /* Main.storyboard */,
 				DC1AAC7C2B7A6B0300196F72 /* Assets.xcassets */,
 				DC1AAC7E2B7A6B0300196F72 /* LaunchScreen.storyboard */,
@@ -161,9 +161,9 @@
 				DC1AAC882B7A6BEF00196F72 /* VideoCapture.swift in Sources */,
 				DC1AAC782B7A6B0100196F72 /* ViewController.swift in Sources */,
 				DC1AAC742B7A6B0100196F72 /* AppDelegate.swift in Sources */,
-				DC1AAC8A2B7AFDDE00196F72 /* PostureClassifier.mlmodel in Sources */,
 				DC1AAC8C2B7AFE4600196F72 /* Predictor.swift in Sources */,
 				DC768ACD2B7DDCA2002FD561 /* InstructionsViewController.swift in Sources */,
+				DC7638EC2B812CB600B5907B /* SittingPostureClassifier.mlmodel in Sources */,
 				DC1AAC762B7A6B0100196F72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
