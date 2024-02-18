@@ -9,6 +9,8 @@ Here's a working demo of the app.  A couple of tips to help you get started so t
 - 1. Get something like a tripod to hold your iPhone vertically.
 - 2. Position your iphone ~1 meter away from where you're sitting.  The camera should capture the entire side view of your body.
 - 3. Try experimenting by switching your sitting posture from an upright posture to a bad posture.  When your sitting posture becomes bad, you will hear an alert sound.  The app makes a judgement of your sitting posture every 2 seconds, and displays it on the screen. : either a bad posture or a good posture, with the confidence level of its judgement
+ 
+Video Demo : [https://www.dropbox.com/scl/fi/25amzbkrceizpsy5bb740/SittingPostureBuddyDemo.mp4?rlkey=hts0l0a4am7crrgnrh8ijbeo5&dl=0](url)
 
 ![Screenshot 2024-02-18 at 12 55 18 PM](https://github.com/RexanWONG/sitting-posture-buddy/assets/96183717/8d3bcfc1-3643-427d-89fb-881a04d2a656)
 
