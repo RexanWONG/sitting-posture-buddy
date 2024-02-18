@@ -21,7 +21,7 @@ Having a bad sitting posture can lead to back pain.  Personally, I spend a lot o
 
 One day, I was browsing through the CreateML docs on the Apple website, and my back started to hurt.  \n\nThat's when I got the idea : I'll build an app that tracks my sitting posture in real time and alerts me briefly when it detects that my sitting posture is bad.
 
-![IMG_3654](https://github.com/RexanWONG/sitting-posture-buddy/assets/96183717/b1194aa9-320c-4337-a0e8-ba5ac6a0ce91)
+![Screenshot 2024-02-18 at 1 14 29 PM](https://github.com/RexanWONG/sitting-posture-buddy/assets/96183717/0a79c648-80be-4d92-8d04-956cad4a4fac)
 
 ## How I built it : The game plan
 To determine if someone has a good posture or bad posture, I decided to use machine learning to acheive that.  The app would make a prediction based on what it was told was a good posture or bad posture, aka the traning data.  
