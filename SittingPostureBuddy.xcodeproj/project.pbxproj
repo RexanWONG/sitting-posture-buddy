@@ -16,6 +16,12 @@
 		DC1AAC882B7A6BEF00196F72 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AAC872B7A6BEF00196F72 /* VideoCapture.swift */; };
 		DC1AAC8C2B7AFE4600196F72 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AAC8B2B7AFE4600196F72 /* Predictor.swift */; };
 		DC7638EC2B812CB600B5907B /* SittingPostureClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC7638EB2B812CB600B5907B /* SittingPostureClassifier.mlmodel */; };
+		DC7638F32B81BF1000B5907B /* UsingTheApp.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7638F22B81BF1000B5907B /* UsingTheApp.png */; };
+		DC7638F72B81C00000B5907B /* WhyBuild.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7638F62B81C00000B5907B /* WhyBuild.png */; };
+		DC7638F92B81C29600B5907B /* CollectingData.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7638F82B81C29500B5907B /* CollectingData.png */; };
+		DC7638FB2B81C2F800B5907B /* CreateML1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7638FA2B81C2F800B5907B /* CreateML1.png */; };
+		DC7638FD2B81C35500B5907B /* CreateML2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7638FC2B81C35500B5907B /* CreateML2.png */; };
+		DC7638FF2B81C40E00B5907B /* BuildingTheApp.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7638FE2B81C40E00B5907B /* BuildingTheApp.png */; };
 		DC768ACD2B7DDCA2002FD561 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC768ACC2B7DDCA2002FD561 /* InstructionsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +37,12 @@
 		DC1AAC872B7A6BEF00196F72 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		DC1AAC8B2B7AFE4600196F72 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
 		DC7638EB2B812CB600B5907B /* SittingPostureClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SittingPostureClassifier.mlmodel; sourceTree = "<group>"; };
+		DC7638F22B81BF1000B5907B /* UsingTheApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UsingTheApp.png; sourceTree = "<group>"; };
+		DC7638F62B81C00000B5907B /* WhyBuild.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhyBuild.png; sourceTree = "<group>"; };
+		DC7638F82B81C29500B5907B /* CollectingData.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CollectingData.png; sourceTree = "<group>"; };
+		DC7638FA2B81C2F800B5907B /* CreateML1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreateML1.png; sourceTree = "<group>"; };
+		DC7638FC2B81C35500B5907B /* CreateML2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreateML2.png; sourceTree = "<group>"; };
+		DC7638FE2B81C40E00B5907B /* BuildingTheApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuildingTheApp.png; sourceTree = "<group>"; };
 		DC768ACC2B7DDCA2002FD561 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +83,12 @@
 				DC1AAC872B7A6BEF00196F72 /* VideoCapture.swift */,
 				DC1AAC8B2B7AFE4600196F72 /* Predictor.swift */,
 				DC7638EB2B812CB600B5907B /* SittingPostureClassifier.mlmodel */,
+				DC7638F62B81C00000B5907B /* WhyBuild.png */,
+				DC7638F22B81BF1000B5907B /* UsingTheApp.png */,
+				DC7638F82B81C29500B5907B /* CollectingData.png */,
+				DC7638FA2B81C2F800B5907B /* CreateML1.png */,
+				DC7638FC2B81C35500B5907B /* CreateML2.png */,
+				DC7638FE2B81C40E00B5907B /* BuildingTheApp.png */,
 				DC1AAC792B7A6B0100196F72 /* Main.storyboard */,
 				DC1AAC7C2B7A6B0300196F72 /* Assets.xcassets */,
 				DC1AAC7E2B7A6B0300196F72 /* LaunchScreen.storyboard */,
@@ -146,7 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1AAC802B7A6B0300196F72 /* LaunchScreen.storyboard in Resources */,
+				DC7638F92B81C29600B5907B /* CollectingData.png in Resources */,
+				DC7638FD2B81C35500B5907B /* CreateML2.png in Resources */,
+				DC7638F32B81BF1000B5907B /* UsingTheApp.png in Resources */,
+				DC7638FF2B81C40E00B5907B /* BuildingTheApp.png in Resources */,
 				DC1AAC7D2B7A6B0300196F72 /* Assets.xcassets in Resources */,
+				DC7638FB2B81C2F800B5907B /* CreateML1.png in Resources */,
+				DC7638F72B81C00000B5907B /* WhyBuild.png in Resources */,
 				DC1AAC7B2B7A6B0100196F72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
