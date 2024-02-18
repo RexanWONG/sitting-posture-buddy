@@ -1,6 +1,6 @@
 # 🪑 Sitting Posture Buddy
 
-## 👋 Hey!
+## Hey!
 Welcome to SittingPostureBuddy.  This section will guide you through the basics of getting started and give some background on how this app was built.  Estimated read time is ~5 mins.
 
 ## Using the app
@@ -17,9 +17,7 @@ Video Demo : [https://www.dropbox.com/scl/fi/25amzbkrceizpsy5bb740/SittingPostur
 ## Why Build?
 In this day and age, we spend a lot of time sitting in front of computers.  While we are focused and in our zone, we tend to forgot about our sitting posture and end up sitting like a cooked spaghetti noodle.  
 
-Having a bad sitting posture can lead to back pain.  P
-
-ersonally, I spend a lot of time coding in front of my computer, and often I end up with a bad posture and nothing to remind me to sit back straight since my eyes were glued to the screen.  
+Having a bad sitting posture can lead to back pain.  Personally, I spend a lot of time coding in front of my computer, and often I end up with a bad posture and nothing to remind me to sit back straight since my eyes were glued to the screen.  
 
 One day, I was browsing through the CreateML docs on the Apple website, and my back started to hurt.  \n\nThat's when I got the idea : I'll build an app that tracks my sitting posture in real time and alerts me briefly when it detects that my sitting posture is bad.
 
